@@ -1,0 +1,18 @@
+project_root/
+│
+├── images/
+│   ├── example1.jpg
+│   └── subfolder/
+│       └── example2.dng
+│
+├── database/
+│   (Qdrant local database files will be stored here)
+│
+├── scripts/
+│   ├── install_dependencies.py
+│   ├── initialize_database.py
+│   ├── batch_process.py
+│   └── search.py
+│
+└── config/
+    (optional config files if needed)
